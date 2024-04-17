@@ -1,0 +1,15 @@
+POST http://127.0.0.1:8000/api/v1/logs
+Content-Type: application/json
+X-Access-Token: d3efd4f38c06492ca99e917b6c950f23
+
+{
+    "client": "test-client",
+    "datetime": "2024-05-17 09:00",
+    "message": "Log test",
+    "level": "info"
+}
+
+###
+GET http://127.0.0.1:8000/api/v1/logs
+Content-Type: application/json
+X-Access-Token: d3efd4f38c06492ca99e917b6c950f23
